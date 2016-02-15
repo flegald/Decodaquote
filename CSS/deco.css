@@ -80,4 +80,23 @@ header {
 	font-size: 1.3em;
 }
 
+#thankYouArticle {
+	text-align: center;
+	background-color: #CBCBCB;
+}
+
+#thankYouheader {
+	font-size: 1.2em;
+	font-weight: 900;
+}
+
+/*To Top Arrow*/
+#toTop {
+	width: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: 900;
+	cursor: pointer;
+	font-weight: 900;
+}
 
