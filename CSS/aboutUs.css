@@ -1,0 +1,25 @@
+#aboutUsheader {
+	width: 100px;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 900;
+	background-color: #CBCBCB;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#books {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#booksImgContainer {
+	width: 200px;	
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+}
+
+.soldAtName {
+font-weight: 900;
+}
