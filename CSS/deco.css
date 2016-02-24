@@ -8,8 +8,8 @@ a {
 	text-decoration: underline;
 }
 /*HEADER*/
-header {
-	width: 90%;
+#mainHeader {
+	width: 97%;
 	height: 70px;
 	padding: 7px;
 	text-align: center;
@@ -25,7 +25,7 @@ header {
 	width: 90%;
 	background-color: #797F8B;
 	display: block;
-	margin-top: 130px;
+	margin-top: 70px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -45,7 +45,7 @@ header {
 	background-image: url("../img/greywater.jpg");
 	border: 1px solid #797F8B;
 	border-radius: 5%;
-	width: 200px;
+	width: 140px;
 	position: absolute;
 	text-align: left;
 	font-size: 1.3em;
@@ -61,7 +61,7 @@ header {
 
 #homeButt {
 	width:80px;
-	margin-left: 45px;
+	margin-left: 20px;
 }
 
 /*HOME*/
