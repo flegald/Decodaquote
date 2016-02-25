@@ -1,4 +1,12 @@
-
+#tipsheader {
+	width: 90%;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 900;
+	background-color: #CBCBCB;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 .tipsBold {
 	font-size: 1.1em;
