@@ -13,11 +13,10 @@
 		height: 2px;
 		width: 90%;
 		background-color: #797F8B;
-		
 		}
 
 	body {
-		background-image: url('../img/background.png');
+		/*background-image: url('../img/background.png');*/
 		font-family: 'Alegreya', serif;
 		font-size: 1.1em;
 		padding: 20px;
@@ -65,51 +64,89 @@
 		border-radius: 15px;
 	}
 
-
-
-	#homeButt {
-		width: 100px;
-	}
-
 	.centerPiece {
-		width: 70%;
+		width: 68%;
 		margin-left: 250px;
 		text-align: left;
-		margin-right: auto;
-		height: 1000px; 
+		background-image: url('../img/redtrans.png');
+		padding: 10px;
+		border-radius: 15px;
+		text-indent: 50px;	
 		}
 
 	/*HOME*/
 	#welcome {
 		text-align: center;
-		background-color: #CBCBCB;
 		font-weight: 900;
 		font-size: 1.2em;
 	}
 
+	#homeButt {
+		width: 100px;
+	}
+
+#bigHello {
+	text-align: center;
+}
+
 	#rotatingArticle {
+		text-align: left;
+		text-indent: 50px;
+	}
+
+	/*FAQ PAGE*/
+	#faqHeader {
+		font-size: 1.5em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#faqInstructions {
+			display: none;
+		}
+
+	#faqArticle {
+		text-indent: 0px;
+	}
+
+	.question {
+		cursor: pointer;
+	}
+
+	.QA {
+		font-size: 1.1em;
+		font-weight: bolder;
+	}
+
+	/*TIPS*/
+	#tipsHeader {
+		font-size: 1.5em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.tipsBold {
+		font-size: 1.1em;
+		font-weight: bolder
+	}
+
+	/*About Us*/
+	#aboutUsheader {
+		font-size: 1.5em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#booksImgContainer {
 		text-align: center;
 	}
 
-	
-
-	#heart {
-		margin-right: 175px;
+	#tipsArticle {
+		text-indent: 0px;
 	}
+
 	/*To Top Arrow*/
 	#toTop {
-		width: 40px;
-		margin-right: auto;
-		margin-left: auto;
-		font-weight: 900;
-		cursor: pointer;
-		border: 1px solid black;
-		background-color: white;
-		padding: 3px;
-		text-align: center;
-		border-radius: 10%;
-		-webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
-		-moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
-		box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+		display: none;
 	}
 }
