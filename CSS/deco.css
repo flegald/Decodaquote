@@ -1,7 +1,10 @@
+
 body {
 	background-image: url('../img/background.png');
 	font-family: 'Alegreya', serif;
 }
+
+
 
 a {
 	cursor: pointer;
@@ -42,6 +45,7 @@ a {
 }
 
 #dropDown {
+	display: none;
 	background-image: url("../img/greywater.jpg");
 	border: 1px solid #797F8B;
 	border-radius: 5%;
@@ -76,9 +80,7 @@ a {
 	text-align: center;
 }
 
-#year, #celebrate {
-	font-size: 1.3em;
-}
+
 
 /*To Top Arrow*/
 #toTop {
