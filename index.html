@@ -1,11 +1,17 @@
 <DOCTYPE! html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-<link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet' type='text/css'>
-<link type="text/css" rel="stylesheet" href="CSS/deco.css">
-<link type="text/css" rel="stylesheet" href="CSS/aboutUs.css">
-<link type="text/css" rel="stylesheet" href="CSS/FAQ.css">
-<link type="text/css" rel="stylesheet" href="CSS/tips.css">
+	<link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet' type='text/css'>
+</head>
+
+<link type="text/css" rel="stylesheet" media="(max-width: 799px)" href="CSS/deco.css">
+<link type="text/css" rel="stylesheet" media="(max-width: 799px)" href="CSS/aboutUs.css">
+<link type="text/css" rel="stylesheet" media="(max-width: 799px)" href="CSS/FAQ.css">
+<link type="text/css" rel="stylesheet" media="(max-width: 799px)" href="CSS/tips.css">
+<link type="text/css" rel="stylesheet" media="(min-width: 800px)" href="CSS/desktop.css">
+<link href="libs/hover-min.css" rel="stylesheet" media="all">
+
 
 
 <script src="libs/jquery-2.1.4.min.js"> </script>
@@ -19,21 +25,32 @@
 
 		<div id="hamburger">
 			<img id="hamMenu" src="img/hamMenu.png">
-
 		</div>
+
 		<div id="dropDown">
-			<a class="dropDownItem" id="toAboutUs">About Us</a>
+			<a class="dropDownItem hvr-underline-from-center" id="toAboutUs">About Us</a>
 			</br>
 			</br>
-			<a class="dropDownItem">Order Tablets</a>
+			<a class="dropDownItem hvr-underline-from-center">Order Tablets</a>
 			</br>
 			</br>
-			<a class="dropDownItem" id="toFaq">FAQ's</a>
+			<a class="dropDownItem hvr-underline-from-center" id="toFaq">FAQ's</a>
 			</br>
 			</br>
-			<a class="dropDownItem" id="toTips">Tips</a>
+			<a class="dropDownItem hvr-underline-from-center" id="toTips">Tips</a>
 			</br>
-			<a class="dropDownItem"><img id="HomeButt" src="img/homeicon.png"></a>
+			<a class="dropDownItem hvr-underline-from-center"><img id="HomeButt" src="img/homeicon.png"></a>
+			<div id="contact">
+				<div id="contactSpan"></div>
+				<p id="address">Address:
+				</br>
+				Sarah at DecodaQuote
+				PO Box 20591
+				Seattle, WA 98102</p>
+				<p>Email:
+				</br>
+				<a href="mailto:decodaquote@gmail.com">decodaquote@gmail.com</a></p>
+			</div>
 		</div>
 
 	</header>
@@ -41,130 +58,135 @@
 	<div id="separate"></div>
 <!-- HOME PAGE -->
 	<section id='homePage'>
-	<div id="welcome"><p id="welcomeMessage">Welcome to Decodaquote&reg, home of the world's best cryptograms.</p></div>
+		<div id="welcome"><p id="welcomeMessage">Welcome to Decodaquote&reg, home of the world's best cryptograms.</p></div>
 
-	<section id="homeArticle">
-		<article>Decodaquote puzzles are encoded messages, fun and educational for the whole family. They are great for children and teenagers and they keep us all thinking.
-		Decodaquote fits in a coat pocket or purse, and is designed to fill an idle moment while commuting or waiting in line. Tear apart the thick ones and take what you need to keep yourself entertained for the day. Keep a tablet near your table for a quick pick-up.
-		A frequent mental snack on Decodaquote feeds your brain with good humor, lofty thoughts and warm fuzzies.</article>
+		<section class="centerPiece" id="homeArticle">
+			<article>Decodaquote puzzles are encoded messages, fun and educational for the whole family. They are great for children and teenagers and they keep us all thinking.
+			Decodaquote fits in a coat pocket or purse, and is designed to fill an idle moment while commuting or waiting in line. Tear apart the thick ones and take what you need to keep yourself entertained for the day. Keep a tablet near your table for a quick pick-up.
+			A frequent mental snack on Decodaquote feeds your brain with good humor, lofty thoughts and warm fuzzies.</article>
+			</br>
+			<article id="rotatingArticle">
+				
+			</article>
+		</section>
 		</br>
-		<article id="rotatingArticle"><span id="year">2016!</span></br>For new puzzles see <a>Tablets</a> Page.</br>
-		<span id="celebrate">Celebrating 26 years!</span><img src="img/feb.png"></article>
-
-		<article id="thankYouArticle"><span id="thankYouHeader">Thank You</span></br>for 25 years of friendships and support of Decodaquote&reg. I've retired as of June 30, and Decodaquote&reg will continue with my daughter-in-law, Sarah, at the helm.</br>Warmest regards,</br>Patience</article>
-	</section>
-	</br>
 </section>
 
 <!-- ABOUT US PAGE -->
-	<section id="aboutUs">
-		<header id="aboutUsHeader">
-			<p id="aboutUsTitle">About Us</p>
-		</header>
+		<section id="aboutUs" class="centerPiece">
+			<header id="aboutUsHeader">
+				<p id="aboutUsTitle">About Us</p>
+			</header>
 
-		<article id="aboutUsArticle">When the cryptogram in my local newspaper disappeared I began encoding snippets for my own pleasure.
-		</br>
-		Several weeks later I had a chance encounter with the editor and asked if he'd consider the work of a local cryptographer. He hired me on the contingency that I wouldn't get bored and quit in three months. I promised him I wouldn't; my first cryptogram debuted in 1990.
-		</br>
-			<div id="booksImgContainer">
-				<img src="img/books.png">
-		</div>
-		</br>
-		Decodaquote currently appears in the Calgary Herald and Kitsap Sun.
- 
-		After a few years, I began to produce puzzle tablets. I produce both theme tablets of 100 puzzles and tablets with a year's worth of challenges (366).  My inventory continues to grow, and selections are available through the "Order tablets" catalogue.
-		</br>
-		</br>
-		They are also sold at:
-		</br>
-		<span class="soldAtName">Clever</span>
-		</br>
-		11225 NE St Hwy 104
-		</br>
-		Kingston WA, a block from the ferry terminal
-		</br>
-		</br>
-		<span class="soldAtName">Harrison Medical Center Gift Shop</span>
-		</br>
-		2520 Cherry Avenue
-		</br>
-		Bremerton, WA
-		</br>
-		</br>
-		<span class="soldAtName">White Horse Toys</span>
-		</br>
-		317 NW Gilman Blvd # 13
-		</br>
-		Issaquah, WA 98027
-		</article>
-	</section>
+			<article id="aboutUsArticle">When the cryptogram in my local newspaper disappeared I began encoding snippets for my own pleasure.
+			</br>
+			Several weeks later I had a chance encounter with the editor and asked if he'd consider the work of a local cryptographer. He hired me on the contingency that I wouldn't get bored and quit in three months. I promised him I wouldn't; my first cryptogram debuted in 1990.
+			</br>
+				<div id="booksImgContainer">
+					<img src="img/books.png">
+			</div>
+			</br>
+			Decodaquote currently appears in the Calgary Herald and Kitsap Sun.
+	 
+			After a few years, I began to produce puzzle tablets. I produce both theme tablets of 100 puzzles and tablets with a year's worth of challenges (366).  My inventory continues to grow, and selections are available through the "Order tablets" catalogue.
+			</br>
+			</br>
+			They are also sold at:
+			</br>
+			<span class="soldAtName">Clever</span>
+			</br>
+			11225 NE St Hwy 104
+			</br>
+			Kingston WA, a block from the ferry terminal
+			</br>
+			</br>
+			<span class="soldAtName">Harrison Medical Center Gift Shop</span>
+			</br>
+			2520 Cherry Avenue
+			</br>
+			Bremerton, WA
+			</br>
+			</br>
+			<span class="soldAtName">White Horse Toys</span>
+			</br>
+			317 NW Gilman Blvd # 13
+			</br>
+			Issaquah, WA 98027
+			</article>
+		</section>
+	
 
 	<!-- FAQS -->
-	<section id="faq">
-		<header id="faqHeader">Frequently Asked Questions</header>
-		<p id="faqInstructions">Touch question to show or hide</p>
-		<article id="faqArticle">
-			<p class="question"><span class="QA">Q: <span>How do you do these things?</p>
-			<p class="answer"><span class="QA">A: </span>
-			See the tips page. It tells you almost everything you can think of to solve cryptograms. Some people make “cheat sheets” of two- and three-letter words for a quick reference.</p>
-			</br>
-			<p class="question"><span class="QA">Q: </span>
-			How long does it take to solve Decodaquote?</p>
-			<p class="answer"><span class="QA">A: </span>Most of us go through a learning curve, and it takes longer until we learn word patterns. Sometimes it’s hard to get started, but if we leave it for a while, we see with a refreshed vision. I like to sit down with a cup of coffee or tea, and hope to come out even. Sometimes the puzzle is done first; sometimes I’m going back for a refill. </p>
-			</br>
-			<p class="question"><span class="QA">Q: </span>Why don't you give more clues?</p>
-			<p class="answer"><span class="QA">A: </span>My system is set up to give only one clue letter, which may or may not be repeated throughout the puzzle. I try to give the most helpful clue I can. If word patterns will reveal the words but the name is difficult, l give a clue letter that helps with the name. Sometimes the name will lend clues to the quote. Finding the right clue letter is often the hardest part of the job because the puzzle should be a challenge. If a puzzle is too easy or too hard, it isn’t fun. Ideally, a clue that reappears is the best, but often I’m stuck. Sometimes people e-mail me asking for another clue. I’ll answer as soon as I see it, but you might not get an answer for several hours.</p>
-			</br>
-			<p class="question"><span class="QA">Q: </span>Where do you get the quotes?</p>
-			<p class="answer"><span class="QA">A: </span>I listen to everything I hear and read. A good quote often leaps out at me when I’m in conversation. (That’s where so many of the “previously unfamous” people come from.) I have a huge resource library, and many people send me quotes.</p>
-			</br>
-			<p class="question"><span class="QA">Q: </span>How do you decide which quote to use?</p>
-			<p class="answer"><span class="QA">A: </span>Oh, that’s a good one. First of all, I’m limited by the size of the box, so I can only use what will fit. Secondly, it must pass the taste test.</p>
-			</br>
-			<p class="question"><span class="QA">Q: </span>Someone told me you use themes in the newspapers. Do you? What are they?</p>
-			<p class="answer"><span class="QA">A: </span>Yes, the rumor is true. On Monday I try to motivate for the work week. In the U.S. we traditionally vote on Tuesdays, so the quotes are historical, political or civic. Wednesday coordinates with the food page, so it has something—even remotely—connected to eating. Thursday is where I put puzzles that generally relate to the human condition. Friday reflects payday, success or the beginning of the weekend. Saturday coordinates with the church pages. I try for humor on Sunday. In addition, I try to time puzzles to events and holidays.</p>
-			</br>
-			<p class="question"><span class="QA">Q: </span>What's your favorite puzzle tablet?</p>
-			<p class="answer"><span class="QA">A: </span>Does a mother have a favorite child? I like them all. Probably each is special to me because of the research I put into the theme puzzles, and the memories created in the process, rather than tablet content. Producing a tablet is a little like giving birth. Some deliveries were easier than others.</p>
-			</br>
-			<p class="question"><span class="QA">Q: </span>Do you have a favorite quotation?</p>
-			<p class="answer"<span class="QA">A: </span>That would have to be when I ran an actual marriage proposal.</p>
-			</br>
-			<p class="question"><span class="QA">Q: </span>Are the puzzles the same in the papers as in the 366 puzzle tablets?</p>
-			<p class="answer"><span class="QA">A: </span>No, they are different. But once several years ago, the same puzzle appeared on the same day in different codes. I have close to a zillion quotes at my fingertips, and I hope that never happens again.</p>
-			</br>
-			<p class="question"><span class="QA">Q: </span>Why aren't you in more papers?</p>
-			<p class="answer"><span class="QA">A: </span>I’m willing.</p>
-			</br>
-			<p class="question"><span class="QA">Q: </span>Is Patience Rayn a play on words?</p>
-			<p class="answer"><span class="QA">A: </span>I always play with words.</p>
-		</article>
-	</section>
+	
+		<section id="faq" class="centerPiece">
+			<header id="faqHeader">Frequently Asked Questions</header>
+			<p id="faqInstructions">Touch question to show or hide</p>
+			<article id="faqArticle">
+				<p class="question"><span class="QA">Q: <span>How do you do these things?</p>
+				<p class="answer"><span class="QA">A: </span>
+				See the tips page. It tells you almost everything you can think of to solve cryptograms. Some people make “cheat sheets” of two- and three-letter words for a quick reference.</p>
+				</br>
+				<p class="question"><span class="QA">Q: </span>
+				How long does it take to solve Decodaquote?</p>
+				<p class="answer"><span class="QA">A: </span>Most of us go through a learning curve, and it takes longer until we learn word patterns. Sometimes it’s hard to get started, but if we leave it for a while, we see with a refreshed vision. I like to sit down with a cup of coffee or tea, and hope to come out even. Sometimes the puzzle is done first; sometimes I’m going back for a refill. </p>
+				</br>
+				<p class="question"><span class="QA">Q: </span>Why don't you give more clues?</p>
+				<p class="answer"><span class="QA">A: </span>My system is set up to give only one clue letter, which may or may not be repeated throughout the puzzle. I try to give the most helpful clue I can. If word patterns will reveal the words but the name is difficult, l give a clue letter that helps with the name. Sometimes the name will lend clues to the quote. Finding the right clue letter is often the hardest part of the job because the puzzle should be a challenge. If a puzzle is too easy or too hard, it isn’t fun. Ideally, a clue that reappears is the best, but often I’m stuck. Sometimes people e-mail me asking for another clue. I’ll answer as soon as I see it, but you might not get an answer for several hours.</p>
+				</br>
+				<p class="question"><span class="QA">Q: </span>Where do you get the quotes?</p>
+				<p class="answer"><span class="QA">A: </span>I listen to everything I hear and read. A good quote often leaps out at me when I’m in conversation. (That’s where so many of the “previously unfamous” people come from.) I have a huge resource library, and many people send me quotes.</p>
+				</br>
+				<p class="question"><span class="QA">Q: </span>How do you decide which quote to use?</p>
+				<p class="answer"><span class="QA">A: </span>Oh, that’s a good one. First of all, I’m limited by the size of the box, so I can only use what will fit. Secondly, it must pass the taste test.</p>
+				</br>
+				<p class="question"><span class="QA">Q: </span>Someone told me you use themes in the newspapers. Do you? What are they?</p>
+				<p class="answer"><span class="QA">A: </span>Yes, the rumor is true. On Monday I try to motivate for the work week. In the U.S. we traditionally vote on Tuesdays, so the quotes are historical, political or civic. Wednesday coordinates with the food page, so it has something—even remotely—connected to eating. Thursday is where I put puzzles that generally relate to the human condition. Friday reflects payday, success or the beginning of the weekend. Saturday coordinates with the church pages. I try for humor on Sunday. In addition, I try to time puzzles to events and holidays.</p>
+				</br>
+				<p class="question"><span class="QA">Q: </span>What's your favorite puzzle tablet?</p>
+				<p class="answer"><span class="QA">A: </span>Does a mother have a favorite child? I like them all. Probably each is special to me because of the research I put into the theme puzzles, and the memories created in the process, rather than tablet content. Producing a tablet is a little like giving birth. Some deliveries were easier than others.</p>
+				</br>
+				<p class="question"><span class="QA">Q: </span>Do you have a favorite quotation?</p>
+				<p class="answer"<span class="QA">A: </span>That would have to be when I ran an actual marriage proposal.</p>
+				</br>
+				<p class="question"><span class="QA">Q: </span>Are the puzzles the same in the papers as in the 366 puzzle tablets?</p>
+				<p class="answer"><span class="QA">A: </span>No, they are different. But once several years ago, the same puzzle appeared on the same day in different codes. I have close to a zillion quotes at my fingertips, and I hope that never happens again.</p>
+				</br>
+				<p class="question"><span class="QA">Q: </span>Why aren't you in more papers?</p>
+				<p class="answer"><span class="QA">A: </span>I’m willing.</p>
+				</br>
+				<p class="question"><span class="QA">Q: </span>Is Patience Rayn a play on words?</p>
+				<p class="answer"><span class="QA">A: </span>I always play with words.</p>
+			</article>
+		</section>
+	
 
 <!-- TIPS -->
-	<section id="tips">
-		</br>
-		<header id="tipsHeader">Tips</header>
-		<article id="tipsArticle">
-			<p class="tipsText">Cryptograms are messages based on letter substitution. To decipher them you only need a pencil and eraser and, like any other detective, a little patience for trial and error as you follow clues. Each puzzle has a different random code.</p>
-			
-			</p class="tipsText">At the bottom of each puzzle is a clue letter to help you get started. Scan for punctuation, looking for commas, apostrophes, quotation and question marks. These clues, as well as letter and word patterns, help in decoding. Once you think you have a letter, test it by substituting throughout the code. Look for:
-			Single letter words that represent <span class="tipsBold">a</span> or <span class="tipsBold">i</span>. <span class="tipsBold">The</span>, the most common word, often begins sentences; <span class="tipsBold">e</span> the most common letter; <span class="tipsBold">th</span>, a frequent combination at the start, middle and end of words.</p>
-			
-			<p class="tipsText">Two two-letter words with the same first letters may be: <span class="tipsBold">it is, if it, as an, or of</span>.</p>
+	
+		<section id="tips" class="centerPiece">
+			</br>
+			<header id="tipsHeader">Tips</header>
+			<article id="tipsArticle">
+				<p class="tipsText">Cryptograms are messages based on letter substitution. To decipher them you only need a pencil and eraser and, like any other detective, a little patience for trial and error as you follow clues. Each puzzle has a different random code.</p>
+				
+				</p class="tipsText">At the bottom of each puzzle is a clue letter to help you get started. Scan for punctuation, looking for commas, apostrophes, quotation and question marks. These clues, as well as letter and word patterns, help in decoding. Once you think you have a letter, test it by substituting throughout the code. Look for:
+				Single letter words that represent <span class="tipsBold">a</span> or <span class="tipsBold">i</span>. <span class="tipsBold">The</span>, the most common word, often begins sentences; <span class="tipsBold">e</span> the most common letter; <span class="tipsBold">th</span>, a frequent combination at the start, middle and end of words.</p>
+				
+				<p class="tipsText">Two two-letter words with the same first letters may be: <span class="tipsBold">it is, if it, as an, or of</span>.</p>
 
-			<p class="tipsText">When i is third-to-last letter, try <span class="tipsBold">ing</span> first.</p>
-			<p class="tipsText">A repeated letter in the middle of a four-letter word is almost always <span class="tipsBold">ee<span> or <span class="tipsBold">oo</span>.</p>
-			<p class="tipsText">A repeated letter at the ends of a four-letter word indicates <span class="tipsBold">that, ease, else, high, says</span> and others, but check <span class="tipsBold">that</span> first.</p>
-			<p class="tipsText">A double letter at the end of a word is usually <span class="tipsBold">ss</span>, <span class="tipsBold">ll</span> or <span class="tipsBold">ee</span>.</p>
-			<p class="tipsText"><span class="tipsBold">People</span> is a popular cryptogram word; look for repeats of first-fourth and second-sixth letters.</p>
-			<p class="tipsText">Letters following an apostrophe are <span class="tipsBold">s, t, d, re, ve,</span> and <span class="tipsBold">ll</span>. An <span class="tipsBold">n</span> precedes <span class="tipsBold">t</span>.</p>
-			<p class="tipstext">It helps to reread what you have and to sound out the words.</p>
-			<p class="tipsText">Except for Anon an' On, Decodaquote features quotations with the author's name following. Some names supply clues:</p>
-			<p class="tipsText"><span class="tipsBold">William</span> and <span class="tipsBold">Kenneth</span> appear the same in code, as do <span class="tipsBold">Helen</span> and <span class="tipsBold">Peter</span>, <span class="tipsBold">David</span> and <span class="tipsBold">Roger</span>, <span class="tipsBold">Arthur</span> and <span class="tipsBold">Sydney</span>, <span class="tipsBold">Bob</span>, and <span class="tipsBold">Lil</span>,. Perhaps more helpful are <span class="tipsBold">Robert</span>, <span class="tipsBold">Richard</span>, <span class="tipsBold">George</span> and <span class="tipsBold">Russell</span>. Note letter repetitions. Last names often end in <span class="tipsBold">son</span> or <span class="tipsBold">man</span>.</p>
-			<p class="tipsText">The mistake many people make is failing to substitute throughout the puzzle.</p>
+				<p class="tipsText">When i is third-to-last letter, try <span class="tipsBold">ing</span> first.</p>
+				<p class="tipsText">A repeated letter in the middle of a four-letter word is almost always <span class="tipsBold">ee<span> or <span class="tipsBold">oo</span>.</p>
+				<p class="tipsText">A repeated letter at the ends of a four-letter word indicates <span class="tipsBold">that, ease, else, high, says</span> and others, but check <span class="tipsBold">that</span> first.</p>
+				<p class="tipsText">A double letter at the end of a word is usually <span class="tipsBold">ss</span>, <span class="tipsBold">ll</span> or <span class="tipsBold">ee</span>.</p>
+				<p class="tipsText"><span class="tipsBold">People</span> is a popular cryptogram word; look for repeats of first-fourth and second-sixth letters.</p>
+				<p class="tipsText">Letters following an apostrophe are <span class="tipsBold">s, t, d, re, ve,</span> and <span class="tipsBold">ll</span>. An <span class="tipsBold">n</span> precedes <span class="tipsBold">t</span>.</p>
+				<p class="tipstext">It helps to reread what you have and to sound out the words.</p>
+				<p class="tipsText">Except for Anon an' On, Decodaquote features quotations with the author's name following. Some names supply clues:</p>
+				<p class="tipsText"><span class="tipsBold">William</span> and <span class="tipsBold">Kenneth</span> appear the same in code, as do <span class="tipsBold">Helen</span> and <span class="tipsBold">Peter</span>, <span class="tipsBold">David</span> and <span class="tipsBold">Roger</span>, <span class="tipsBold">Arthur</span> and <span class="tipsBold">Sydney</span>, <span class="tipsBold">Bob</span>, and <span class="tipsBold">Lil</span>,. Perhaps more helpful are <span class="tipsBold">Robert</span>, <span class="tipsBold">Richard</span>, <span class="tipsBold">George</span> and <span class="tipsBold">Russell</span>. Note letter repetitions. Last names often end in <span class="tipsBold">son</span> or <span class="tipsBold">man</span>.</p>
+				<p class="tipsText">The mistake many people make is failing to substitute throughout the puzzle.</p>
 
-			<p class="tipsText">You, too can be a detective. It's fun.</p>
+				<p class="tipsText">You, too can be a detective. It's fun.</p>
+		</section>
+	
 	<div id="toTop">Top	&uarr;</div>
 	</br>
 
