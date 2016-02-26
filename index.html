@@ -1,22 +1,14 @@
 <DOCTYPE! html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-
-	<link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet' type='text/css'>
-</head>
-
-<link type="text/css" rel="stylesheet" media="(max-width: 799px)" href="CSS/deco.css">
-<link type="text/css" rel="stylesheet" media="(max-width: 799px)" href="CSS/aboutUs.css">
-<link type="text/css" rel="stylesheet" media="(max-width: 799px)" href="CSS/FAQ.css">
-<link type="text/css" rel="stylesheet" media="(max-width: 799px)" href="CSS/tips.css">
-<link type="text/css" rel="stylesheet" media="(min-width: 800px)" href="CSS/desktop.css">
-<link href="libs/hover-min.css" rel="stylesheet" media="all">
-
-
-
-<script src="libs/jquery-2.1.4.min.js"> </script>
-<head>
 	<title>Decodaquote&reg</title>
+	<link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet' type='text/css'>
+	<link type="text/css" rel="stylesheet" media="(max-width: 799px)" href="CSS/deco.css">
+	<link type="text/css" rel="stylesheet" media="(max-width: 799px)" href="CSS/aboutUs.css">
+	<link type="text/css" rel="stylesheet" media="(max-width: 799px)" href="CSS/FAQ.css">
+	<link type="text/css" rel="stylesheet" media="(max-width: 799px)" href="CSS/tips.css">
+	<link type="text/css" rel="stylesheet" media="(min-width: 800px)" href="CSS/desktop.css">
+	<link href="libs/hover-min.css" rel="stylesheet" media="all">
 </head>
 
 <body>
@@ -31,7 +23,7 @@
 			<a class="dropDownItem hvr-underline-from-center" id="toAboutUs">About Us</a>
 			</br>
 			</br>
-			<a class="dropDownItem hvr-underline-from-center">Order Tablets</a>
+			<a class="dropDownItem hvr-underline-from-center" id="toOrderTabs">Order Tablets</a>
 			</br>
 			</br>
 			<a class="dropDownItem hvr-underline-from-center" id="toFaq">FAQ's</a>
@@ -115,6 +107,12 @@
 			</article>
 		</section>
 	
+	<!-- Order Tablets -->
+	<section id="orderTabs" class="centerPiece">
+		<header id="orderTabsHeader">Order Tablets</header>
+		<div class="templateAnchor">
+		</div>
+	</section>
 
 	<!-- FAQS -->
 	
@@ -185,15 +183,19 @@
 				<p class="tipsText">The mistake many people make is failing to substitute throughout the puzzle.</p>
 
 				<p class="tipsText">You, too can be a detective. It's fun.</p>
-		</section>
+			</section>
 	
-	<div id="toTop">Top	&uarr;</div>
-	</br>
-	<div id="footerSpan"></div>
-	<footer>Copyright &copy 2016 All Rights Reserved</footer>
+		<div id="toTop">Top	&uarr;</div>
+		</br>
+		<div id="footerSpan"></div>
+		<footer>Copyright &copy 2016 All Rights Reserved</footer>
 
-	<script type="text/javascript" src="js/deco.js"></script>
-	<script type="text/javascript" src="js/FAQ.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.min.js" charset="utf-8"></script>
+		<script type="text/javascript" src="js/deco.js"></script>
+		<script type="text/javascript" src="js/tablets.js"></script>
+		<script type="text/javascript" src="js/FAQ.js"></script>
 	</body>
 	</html>
 
