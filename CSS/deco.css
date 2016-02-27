@@ -65,6 +65,7 @@ a {
 	text-align: left;
 	font-size: 1.3em;
 	padding: 10px;
+	z-index: 999;
 }
 
 .dropDownitem {
