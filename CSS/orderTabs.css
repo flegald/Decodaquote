@@ -1,0 +1,25 @@
+.mailButt {
+		font-family: Arial, Helvetica, sans-serif;
+		color: black;
+		background: linear-gradient(#E0FFFF, #B0E2FF);
+		font-size: .8em;
+		text-align: center;
+		border-radius: 20px;
+		width: 150px;
+		height: 30px;
+		margin-bottom: 10px;
+	}
+
+	.paypal {
+		width: 150px;	
+	}
+
+	.itemSeparate {
+		height: 2px;
+		width: 90%;
+		background-color: #797F8B;
+		display: block;
+		margin-top: 20px;
+		margin-right: auto;
+		margin-left: auto;
+	}
