@@ -20,9 +20,9 @@ $(function(){
 		this.pushArray();
 	};
 
-	var quoteables = new tablets("../img/tablets/Quotables160.jpg", 'Quotables', '100 hundred pithy and thoughtful sayings you are glad somebody said because they feel good to quote . . . and to solve.', 'tag');
-	var decodeMe = new tablets("../img/tablets/DecodeMe_Cover160.jpg", 'Decode Me', '100 excellent thoughts awaiting your sleuthing scrutiny.');
-	var sitASpell = new tablets("../img/tablets/SitASpellCover160.jpg", 'Sit A Spell', '100 quotations worth chatting about over a cup of tea')
+	var quoteables = new tablets("img/tablets/Quotables160.jpg", 'Quotables', '100 hundred pithy and thoughtful sayings you are glad somebody said because they feel good to quote . . . and to solve.', 'tag');
+	var decodeMe = new tablets("img/tablets/DecodeMe_Cover160.jpg", 'Decode Me', '100 excellent thoughts awaiting your sleuthing scrutiny.');
+	var sitASpell = new tablets("img/tablets/SitASpellCover160.jpg", 'Sit A Spell', '100 quotations worth chatting about over a cup of tea')
 
 	function applyTemplate(){
 		console.log("apply template called...");
