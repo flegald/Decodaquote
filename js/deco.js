@@ -8,6 +8,7 @@ $(function(){
 		$('#aboutUs').hide();
 		$('#faq').hide();
 		$('#tips').hide();
+		$('#orderTabs').hide();
 		$('#homePage').fadeIn();
 	})
 

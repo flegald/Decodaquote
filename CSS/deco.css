@@ -3,8 +3,6 @@ body {
 	font-family: 'Alegreya', serif;
 }
 
-
-
 a {
 	cursor: pointer;
 	text-decoration: underline;
@@ -57,7 +55,8 @@ a {
 
 #dropDown {
 	display: none;
-	background:linear-gradient(#E5E5FF, #CCCCFF);
+	background-image: url("../img/bluedropdown.jpg");
+	background-position: center center;
 	border: 1px solid #797F8B;
 	border-radius: 5%;
 	width: 140px;
