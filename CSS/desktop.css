@@ -134,6 +134,10 @@
 		margin-bottom: 30px;
 	}
 
+	#orderMessage {
+		text-indent: 0px;
+	}
+
 	.tabletListing p {
 		text-indent: 0px;
 		text-align: center;
