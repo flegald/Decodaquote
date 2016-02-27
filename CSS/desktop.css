@@ -152,9 +152,7 @@
 	}
 
 	.payOptions {
-		list-style: none;
-		padding-top: 10px;
-		margin-left: 200px;
+		margin-left: 275px;
 	}
 
 	.paypal {
@@ -171,6 +169,25 @@
 		margin-left: auto;
 	}
 
+	.mailButt {
+		font-family: Arial, Helvetica, sans-serif;
+		color: black;
+		background: linear-gradient(#E0FFFF, #B0E2FF);
+		font-size: .8em;
+		text-align: center;
+		border-radius: 20px;
+		width: 150px;
+		height: 30px;
+		margin-bottom: 10px;
+	}
+
+	.toMailForm {
+		text-decoration: none;
+	}
+
+	.mailButt:hover {
+		background-color: white;
+	}
 
 	/*TIPS*/
 	#tipsHeader {
