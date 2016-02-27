@@ -1,6 +1,5 @@
 
 body {
-	background-image: url('../img/background.png');
 	font-family: 'Alegreya', serif;
 }
 
@@ -9,6 +8,11 @@ body {
 a {
 	cursor: pointer;
 	text-decoration: underline;
+}
+
+.centerPiece {
+	background-image: url('../img/redtrans.png');
+	padding: 5px;
 }
 /*HEADER*/
 #mainHeader {
@@ -21,6 +25,8 @@ a {
 #title {
 	margin-bottom: 15px;
 	font-size: 2em;
+	background-image: url("../img/bluewater.png");
+
 }
 
 #separate {
@@ -34,8 +40,13 @@ a {
 }
 
 /*HAMBURGER MENU*/
+#contact {
+	display: none;
+}
+
 #hamburger {
 	margin-left: -70px;
+	display: inline-block;
 }
 #hamMenu {
 	height: 40px;
@@ -46,7 +57,7 @@ a {
 
 #dropDown {
 	display: none;
-	background-image: url("../img/greywater.jpg");
+	background:linear-gradient(#E5E5FF, #CCCCFF);
 	border: 1px solid #797F8B;
 	border-radius: 5%;
 	width: 140px;
@@ -71,7 +82,7 @@ a {
 /*HOME*/
 #welcome {
 	text-align: center;
-	background-color: #CBCBCB;
+	background-image: url('../img/bluedroptrans2.png');
 	font-weight: 900;
 	font-size: 1.1em;
 }
@@ -80,22 +91,11 @@ a {
 	text-align: center;
 }
 
+#introMessage {
+	text-indent: 30px;
+}
 
-
-/*To Top Arrow*/
-#toTop {
-	width: 40px;
-	margin-right: auto;
-	margin-left: auto;
-	font-weight: 900;
-	cursor: pointer;
-	border: 1px solid black;
-	background-color: white;
-	padding: 3px;
+footer {
 	text-align: center;
-	border-radius: 10%;
-	-webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
-	box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
 }
 
