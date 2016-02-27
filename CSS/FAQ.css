@@ -7,16 +7,13 @@
 	text-align: center;
 	font-size: 1.5em;
 	font-weight: 900;
-	background-color: #CBCBCB;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 10px;
 }
 
 .question {
 	font-weight: bold;
 	font-size: 1.2em;
-	background-color: #CBCBCB;
 	cursor: pointer;
 }
 

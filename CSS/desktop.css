@@ -4,6 +4,10 @@
 		display: none;
 	}
 
+	#mobileContact {
+		display: none;
+	}
+
 	#contact {
 		text-align: left;
 		font-size: 0.9em;
@@ -216,10 +220,6 @@
 		text-indent: 0px;
 	}
 
-	/*To Top Arrow*/
-	#toTop {
-		display: none;
-	}
 
 	/*footer*/
 	#footerSpan {
