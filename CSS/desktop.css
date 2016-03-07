@@ -1,5 +1,5 @@
 @media screen and (min-width: 800px) {
-	
+
 	#hamburger {
 		display: none;
 	}
@@ -34,13 +34,12 @@
 	#mainHeader {
 		width: 97%;
 		height: 70px;
-		padding: 7px;
 		text-align: center;
 	}
 
 	#title {
-		margin-top: 0px;
-		margin-bottom: 20px;
+		margin-bottom: -70px;
+		height:150px;
 		font-size: 4em;
 		cursor: pointer;
 		background-image: url("../img/bluewater.png");
@@ -54,18 +53,22 @@
 		width: 90%;
 		background-color: #797F8B;
 		display: block;
-		margin-top: 20px;
 		margin-right: auto;
 		margin-left: auto;
 	}
 
-	#dropDown {
-		margin-top: 80px;
-		width: 200px;
-		padding: 10px;
+	#navBar {
+		margin-top:  -15px;
+		height: 30px;
+		width: 95%;
 		font-size: 1.2em;
-		background-image: url('../img/bluedroptrans2.png');
 		border-radius: 15px;
+	}
+
+	#navBar li {
+		list-style: none;
+		display: inline-block;
+		padding: 20px;
 	}
 
 	.dropDownItem:active {
@@ -73,8 +76,8 @@
 	}
 
 	.centerPiece {
-		width: 68%;
-		margin-left: 250px;
+		width: 95%;
+		margin-top: 200px;
 		text-align: left;
 		background-image: url('../img/redtrans.png');
 		padding: 10px;
@@ -83,14 +86,25 @@
 		}
 
 	/*HOME*/
+
+	#homeHeader {
+		font-size: 1.5em;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 30px;
+	}
+
+
 	#welcome {
 		text-align: center;
 		font-weight: 900;
 		font-size: 1.2em;
+		margin-top: -20px;
 	}
 
 	#homeButt {
 		width: 100px;
+		margin-top: -30px;
 	}
 
 	#bigHello {
@@ -191,6 +205,7 @@
 
 	.toMailForm {
 		text-decoration: none;
+		color: black;
 	}
 
 	.mailButt:hover {
